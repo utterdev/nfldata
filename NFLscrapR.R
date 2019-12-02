@@ -41,91 +41,91 @@ schotty <- pbp_rp %>%
   arrange(mean_pass)
 schotty
 
-ggplot(schotty, aes(x=reorder(posteam,-mean_pass), y=mean_pass)) +
-  geom_text(aes(label=posteam))
+# ggplot(schotty, aes(x=reorder(posteam,-mean_pass), y=mean_pass)) +
+#   geom_text(aes(label=posteam))
+# 
+# ggsave('FILENAME.png', dpi=1000)
 
-ggsave('FILENAME.png', dpi=1000)
-
-chart_data <- pbp_rp %>%
-  filter(pass==1) %>%
-  group_by(posteam) %>%
-  summarise(
-    num_db = n(),
-    epa_per_db = sum(epa) / num_db,
-    success_rate = sum(epa > 0) / num_db
-  )
-
-nfl_logos_df <- read_csv("https://raw.githubusercontent.com/statsbylopez/BlogPosts/master/nfl_teamlogos.csv")
-chart <- chart_data %>% left_join(nfl_logos_df, by = c("posteam" = "team_code"))
-
-chart %>%
-  ggplot(aes(x = success_rate, y = epa_per_db)) +
-  geom_image(aes(image = url), size = 0.05) +
-  labs(x = "Success rate",
-       y = "EPA per play",
-       caption = "Data from nflscrapR",
-       title = "Dropback success rate & EPA/play",
-       subtitle = "2018") +
-  theme_bw() +
-  theme(axis.title = element_text(size = 12),
-        axis.text = element_text(size = 10),
-        plot.title = element_text(size = 16),
-        plot.subtitle = element_text(size = 14),
-        plot.caption = element_text(size = 12))
-
-ggsave('FILENAME.png', dpi=1000)
-
-chart_data <- pbp_rp %>%
-  group_by(posteam) %>%
-  filter(down<=2) %>%
-  summarise(
-    n_dropbacks = sum(pass),
-    n_rush = sum(rush),
-    epa_per_db = sum(epa * pass) / n_dropbacks,
-    epa_per_rush = sum(epa * rush) / n_rush,
-    success_per_db = sum(success * pass) / n_dropbacks,
-    success_per_rush = sum(success * rush) / n_rush
-  )
-
-chart <- chart_data %>% left_join(nfl_logos_df, by = c("posteam" = "team_code"))
-
-chart %>%
-  ggplot(aes(x = epa_per_rush, y = epa_per_db)) +
-  geom_image(aes(image = url), size = 0.05) +
-  labs(x = "Rush EPA/play",
-       y = "Pass EPA/play",
-       caption = "Data from nflscrapR",
-       title = "Early-down rush and pass EPA/play",
-       subtitle = "2018") +
-  theme_bw() +
-  geom_abline(slope=1, intercept=0, alpha=.2) +
-  theme(axis.title = element_text(size = 12),
-        axis.text = element_text(size = 10),
-        plot.title = element_text(size = 16),
-        plot.subtitle = element_text(size = 14),
-        plot.caption = element_text(size = 12))
-
-ggsave('FILENAME.png', dpi=1000)
-
-chart %>%
-  ggplot(aes(x = success_per_rush, y = success_per_db)) +
-  geom_image(aes(image = url), size = 0.05) +
-  labs(x = "Rush success rate",
-       y = "Pass success rate",
-       caption = "Data from nflscrapR",
-       title = "Early-down rush and pass success rate",
-       subtitle = "2018") +
-  theme_bw() +
-  geom_abline(slope=1, intercept=0, alpha=.2) +
-  theme(axis.title = element_text(size = 12),
-        axis.text = element_text(size = 10),
-        plot.title = element_text(size = 16),
-        plot.subtitle = element_text(size = 14),
-        plot.caption = element_text(size = 12))
-
-ggsave('FILENAME.png', dpi=1000)
-
-pbp_rp %>% filter(play_type=="no_play") %>% select(desc, pass, passer_player_name, rusher_player_name, receiver_player_name) %>% head()
+# chart_data <- pbp_rp %>%
+#   filter(pass==1) %>%
+#   group_by(posteam) %>%
+#   summarise(
+#     num_db = n(),
+#     epa_per_db = sum(epa) / num_db,
+#     success_rate = sum(epa > 0) / num_db
+#   )
+# 
+# nfl_logos_df <- read_csv("https://raw.githubusercontent.com/statsbylopez/BlogPosts/master/nfl_teamlogos.csv")
+# chart <- chart_data %>% left_join(nfl_logos_df, by = c("posteam" = "team_code"))
+# 
+# chart %>%
+#   ggplot(aes(x = success_rate, y = epa_per_db)) +
+#   geom_image(aes(image = url), size = 0.05) +
+#   labs(x = "Success rate",
+#        y = "EPA per play",
+#        caption = "Data from nflscrapR",
+#        title = "Dropback success rate & EPA/play",
+#        subtitle = "2018") +
+#   theme_bw() +
+#   theme(axis.title = element_text(size = 12),
+#         axis.text = element_text(size = 10),
+#         plot.title = element_text(size = 16),
+#         plot.subtitle = element_text(size = 14),
+#         plot.caption = element_text(size = 12))
+# 
+# ggsave('FILENAME.png', dpi=1000)
+# 
+# chart_data <- pbp_rp %>%
+#   group_by(posteam) %>%
+#   filter(down<=2) %>%
+#   summarise(
+#     n_dropbacks = sum(pass),
+#     n_rush = sum(rush),
+#     epa_per_db = sum(epa * pass) / n_dropbacks,
+#     epa_per_rush = sum(epa * rush) / n_rush,
+#     success_per_db = sum(success * pass) / n_dropbacks,
+#     success_per_rush = sum(success * rush) / n_rush
+#   )
+# 
+# chart <- chart_data %>% left_join(nfl_logos_df, by = c("posteam" = "team_code"))
+# 
+# chart %>%
+#   ggplot(aes(x = epa_per_rush, y = epa_per_db)) +
+#   geom_image(aes(image = url), size = 0.05) +
+#   labs(x = "Rush EPA/play",
+#        y = "Pass EPA/play",
+#        caption = "Data from nflscrapR",
+#        title = "Early-down rush and pass EPA/play",
+#        subtitle = "2018") +
+#   theme_bw() +
+#   geom_abline(slope=1, intercept=0, alpha=.2) +
+#   theme(axis.title = element_text(size = 12),
+#         axis.text = element_text(size = 10),
+#         plot.title = element_text(size = 16),
+#         plot.subtitle = element_text(size = 14),
+#         plot.caption = element_text(size = 12))
+# 
+# ggsave('FILENAME.png', dpi=1000)
+# 
+# chart %>%
+#   ggplot(aes(x = success_per_rush, y = success_per_db)) +
+#   geom_image(aes(image = url), size = 0.05) +
+#   labs(x = "Rush success rate",
+#        y = "Pass success rate",
+#        caption = "Data from nflscrapR",
+#        title = "Early-down rush and pass success rate",
+#        subtitle = "2018") +
+#   theme_bw() +
+#   geom_abline(slope=1, intercept=0, alpha=.2) +
+#   theme(axis.title = element_text(size = 12),
+#         axis.text = element_text(size = 10),
+#         plot.title = element_text(size = 16),
+#         plot.subtitle = element_text(size = 14),
+#         plot.caption = element_text(size = 12))
+# 
+# ggsave('FILENAME.png', dpi=1000)
+# 
+# pbp_rp %>% filter(play_type=="no_play") %>% select(desc, pass, passer_player_name, rusher_player_name, receiver_player_name) %>% head()
 
 
 pbp_players <- pbp_rp %>% 
@@ -142,46 +142,46 @@ pbp_players <- pbp_rp %>%
                                 rusher_player_name)
   )
 
-qbs <- pbp_players %>% 
-  mutate(
-    name = ifelse(!is_na(passer_player_name), passer_player_name, rusher_player_name),
-    rusher = rusher_player_name,
-    receiver = receiver_player_name,
-    play = 1
-  ) %>%
-  group_by(name, posteam) %>%
-  summarize (
-    n_dropbacks = sum(pass),
-    n_rush = sum(rush),
-    n_plays = sum(play),
-    epa_per_play = sum(epa)/n_plays,
-    success_per_play =sum(success)/n_plays
-  ) %>%
-  filter(n_dropbacks>=100)
-
-library(ggrepel)
-
-qbs %>%
-  ggplot(aes(x = success_per_play, y = epa_per_play)) +
-  geom_hline(yintercept = mean(qbs$epa_per_play), color = "red", linetype = "dashed") +
-  geom_vline(xintercept =  mean(qbs$success_per_play), color = "red", linetype = "dashed") +
-  geom_point(color = ifelse(qbs$posteam == "SF", "red", "black"), cex=qbs$n_plays/60, alpha=1/4) +
-  geom_text_repel(aes(label=name),
-                  force=1, point.padding=0,
-                  segment.size=0.1) +
-  labs(x = "Success rate",
-       y = "EPA per play",
-       caption = "Data from nflscrapR",
-       title = "QB success rate and EPA/play",
-       subtitle = "2018, min 100 pass attempts, includes all QB's rush and pass plays") +
-  theme_bw() +
-  theme(axis.title = element_text(size = 12),
-        axis.text = element_text(size = 10),
-        plot.title = element_text(size = 16, hjust = 0.5),
-        plot.subtitle = element_text(size = 14, hjust = 0.5),
-        plot.caption = element_text(size = 12))
-
-ggsave('FILENAME.png', dpi=1000)
+# qbs <- pbp_players %>% 
+#   mutate(
+#     name = ifelse(!is_na(passer_player_name), passer_player_name, rusher_player_name),
+#     rusher = rusher_player_name,
+#     receiver = receiver_player_name,
+#     play = 1
+#   ) %>%
+#   group_by(name, posteam) %>%
+#   summarize (
+#     n_dropbacks = sum(pass),
+#     n_rush = sum(rush),
+#     n_plays = sum(play),
+#     epa_per_play = sum(epa)/n_plays,
+#     success_per_play =sum(success)/n_plays
+#   ) %>%
+#   filter(n_dropbacks>=100)
+# 
+# library(ggrepel)
+# 
+# qbs %>%
+#   ggplot(aes(x = success_per_play, y = epa_per_play)) +
+#   geom_hline(yintercept = mean(qbs$epa_per_play), color = "red", linetype = "dashed") +
+#   geom_vline(xintercept =  mean(qbs$success_per_play), color = "red", linetype = "dashed") +
+#   geom_point(color = ifelse(qbs$posteam == "SF", "red", "black"), cex=qbs$n_plays/60, alpha=1/4) +
+#   geom_text_repel(aes(label=name),
+#                   force=1, point.padding=0,
+#                   segment.size=0.1) +
+#   labs(x = "Success rate",
+#        y = "EPA per play",
+#        caption = "Data from nflscrapR",
+#        title = "QB success rate and EPA/play",
+#        subtitle = "2018, min 100 pass attempts, includes all QB's rush and pass plays") +
+#   theme_bw() +
+#   theme(axis.title = element_text(size = 12),
+#         axis.text = element_text(size = 10),
+#         plot.title = element_text(size = 16, hjust = 0.5),
+#         plot.subtitle = element_text(size = 14, hjust = 0.5),
+#         plot.caption = element_text(size = 12))
+# 
+# ggsave('FILENAME.png', dpi=1000)
 
 first <- 2009 #first season to grab. min available=2009
 last <- 2019 # most recent season
@@ -231,51 +231,190 @@ pbp_all_rp <- pbp_all %>%
   ) %>%
   filter(pass==1 | rush==1)
 
+# pbp_all_rp %>% filter(pass==1 & !is.na(passer_player_name))%>% mutate(
+#   arod = if_else(posteam=="GB"&passer_player_name=="A.Rodgers",1,0),
+#   early = if_else(season<=2014,1,0)
+# ) %>%
+#   group_by(arod,early) %>%
+#   summarize(mean_epa=mean(epa), ypp=mean(yards_gained, na.rm = TRUE)) %>% arrange(-early)
+
+
+
+saveRDS(pbp_all_rp, file="NFLscrapRdata.rds")
+
+
+# draft_picks <- read_csv("https://raw.githubusercontent.com/leesharpe/nfldata/master/data/draft_picks.csv")
+# # we do a left join here because the names won't always match but don't want to lose any nflscrapR rows
+# pbp_all_rp <- pbp_all_rp %>%
+#   left_join(draft_picks,by=c("posteam"="team","name"="name"))
+
+# draft_values <- read_csv("https://raw.githubusercontent.com/leesharpe/nfldata/master/data/draft_values.csv")
+# draft_picks <- draft_picks %>%
+#   inner_join(draft_values,by=c("pick"="pick"))
+
+# games <- read_csv("http://www.habitatring.com/games.csv")
+# pbp_all_rp <- pbp_all_rp %>%
+#   inner_join(games,by=c("game_id"="game_id","away_team"="away_team","home_team"="home_team"))
+
+# logos <- read_csv("https://raw.githubusercontent.com/leesharpe/nfldata/master/data/logos.csv")
+# pbp_all_rp <- pbp_all_rp %>%
+#   inner_join(logos,by=c("posteam"="team"))
+
+# rosters <- read_csv("https://raw.githubusercontent.com/leesharpe/nfldata/master/data/rosters.csv")
+# # we do a left join here because the names won't always match but don't want to lose any nflscrapR rows
+# pbp_all_rp <- pbp_all_rp %>%
+#   left_join(rosters,by=c("season"="season","posteam"="team","name"="name"))
+
+# standings <- read_csv("http://www.habitatring.com/standings.csv")
+# pbp_all_rp <- pbp_all_rp %>%
+#   inner_join(standings,by=c("season"="season","posteam"="team"))
+
+str(pbp_all_rp, list.len=ncol(pbp_all_rp))
+
+schotty <- pbp_all_rp %>%
+  filter(wp>.20 & wp<.80 & down<=2 & qtr<=2 & half_seconds_remaining>120) %>%
+  group_by(posteam) %>%
+  summarize(mean_pass=mean(pass), plays=n()) %>%
+  arrange(mean_pass)
+schotty
+
+manusky <- pbp_all_rp %>%
+  filter(season>=2017) %>%
+  group_by(defteam) %>%
+  summarize(mean_epa = mean (epa), ypp = (sum(yards_gained,NA, na.rm = TRUE))/sum(play)) %>%
+  arrange(-ypp) 
+manusky
+
+manusky2 <- pbp_all_rp %>%
+  filter(defteam=="WAS") %>%
+  group_by(season) %>%
+  summarize(mean_epa = mean (epa), ypp = (sum(yards_gained,NA, na.rm = TRUE))/sum(play)) %>%
+  arrange(-season) 
+manusky2
+
+phil1 <- pbp_all_rp %>%
+  filter(pass==1) %>%
+  group_by(passer_player_name) %>%
+  summarize(sum_pass = sum (pass), ypp = (sum(yards_gained,NA, na.rm = TRUE)-sum(yards_after_catch,NA, na.rm = TRUE))/sum(pass)) %>%
+  arrange(-ypp) %>%
+  filter(sum_pass>500)
+phil1
+
+pbp_all_rp %>% select(season) %>% head
+
+#     n_dropbacks = sum(pass),
+#     n_rush = sum(rush),
+#     epa_per_db = sum(epa * pass) / n_dropbacks,
+#     epa_per_rush = sum(epa * rush) / n_rush,
+#     success_per_db = sum(success * pass) / n_dropbacks,
+#     success_per_rush = sum(success * rush) / n_rush
+
+# Dog's question
 pbp_all_rp %>% filter(pass==1 & !is.na(passer_player_name))%>% mutate(
   arod = if_else(posteam=="GB"&passer_player_name=="A.Rodgers",1,0),
-  early = if_else(season<=2014,1,0)
+  early = if_else(qtr<=2,1,0)
 ) %>%
   group_by(arod,early) %>%
   summarize(mean_epa=mean(epa), ypp=mean(yards_gained, na.rm = TRUE)) %>% arrange(-early)
 
-saveRDS(pbp_all_rp, file="NFLscrapRdata.rds")
+str(pbp_all_rp, list.len=ncol(pbp_all_rp))
+
+# Offensive vs Defensive EPA
+epa <- pbp_all_rp %>% 
+  select(season, posteam, defteam, epa)
+o_team_epa <- epa %>%
+  filter(season==2018) %>%
+  group_by(posteam) %>%
+  summarize(o_epa=mean(epa)) %>%
+  mutate (team=posteam) 
+d_team_epa <- epa %>%
+  filter(season==2018) %>%
+  group_by(defteam) %>%
+  summarize(d_epa=-mean(epa)) %>%
+  mutate (team=defteam)
+nfl_logos_df <- read_csv("https://raw.githubusercontent.com/statsbylopez/BlogPosts/master/nfl_teamlogos.csv")
+epa_all <- o_team_epa %>% inner_join(d_team_epa, by="team") %>%
+  left_join (nfl_logos_df, by = c("posteam" = "team_code")) %>%
+  mutate(all_epa=(o_epa-d_epa)) %>%
+
+chart %>%
+  ggplot(aes(x = o_epa, y = d_epa)) +
+  geom_image(aes(image = url), size = 0.05) +
+  labs(x = "Offense EPA",
+       y = "Defense EPA",
+       caption = "Data from nflscrapR, Plot by @the_fun_bunch",
+       title = "Offensive & Defensive Team EPA",
+       subtitle = "2018") +
+  theme_bw() +
+  theme(axis.title = element_text(size = 12),
+        axis.text = element_text(size = 10),
+        plot.title = element_text(size = 16),
+        plot.subtitle = element_text(size = 14),
+        plot.caption = element_text(size = 8))
+
+
+# Redskins EPA
+pbp_all_rp %>% 
+  filter(season>=2017) %>%
+  group_by(defteam) %>%
+  summarize(def_epa=-mean(epa)) %>%
+  arrange(def_epa)
+
+options(tibble.print_max = 32)
+
 pbp_all_rp <- readRDS("NFLscrapRdata.rds")
 
-draft_picks <- read_csv("https://raw.githubusercontent.com/leesharpe/nfldata/master/data/draft_picks.csv")
-# we do a left join here because the names won't always match but don't want to lose any nflscrapR rows
-pbp_all_rp <- pbp_all_rp %>%
-  left_join(draft_picks,by=c("posteam"="team","name"="name"))
+str(pbp_all_rp, list.len=ncol(pbp_all_rp))
 
-draft_values <- read_csv("https://raw.githubusercontent.com/leesharpe/nfldata/master/data/draft_values.csv")
-draft_picks <- draft_picks %>%
-  inner_join(draft_values,by=c("pick"="pick"))
+# Offensive vs Defensive EPA
+epa <- pbp_all_rp %>% 
+  select(season, posteam, defteam, epa)
 
-games <- read_csv("http://www.habitatring.com/games.csv")
-pbp_all_rp <- pbp_all_rp %>%
-  inner_join(games,by=c("game_id"="game_id","away_team"="away_team","home_team"="home_team"))
+o_team_epa <- epa %>%
+  # filter(season==2018) %>%
+  group_by(posteam,season) %>%
+  summarize(o_epa=mean(epa)) %>%
+  mutate (team=posteam)
 
-logos <- read_csv("https://raw.githubusercontent.com/leesharpe/nfldata/master/data/logos.csv")
-pbp_all_rp <- pbp_all_rp %>%
-  inner_join(logos,by=c("posteam"="team"))
+d_team_epa <- epa %>%
+  # filter(season==2018) %>%
+  group_by(defteam,season) %>%
+  summarize(d_epa=-mean(epa)) %>%
+  mutate (team=defteam)
 
-rosters <- read_csv("https://raw.githubusercontent.com/leesharpe/nfldata/master/data/rosters.csv")
-# we do a left join here because the names won't always match but don't want to lose any nflscrapR rows
-pbp_all_rp <- pbp_all_rp %>%
-  left_join(rosters,by=c("season"="season","posteam"="team","name"="name"))
+nfl_logos_df <- read_csv("https://raw.githubusercontent.com/statsbylopez/BlogPosts/master/nfl_teamlogos.csv")
 
-standings <- read_csv("http://www.habitatring.com/standings.csv")
-pbp_all_rp <- pbp_all_rp %>%
-  inner_join(standings,by=c("season"="season","posteam"="team"))
+epa_all <- o_team_epa %>% inner_join(d_team_epa,o_team_epa, by=c("team","season")) %>%
+  left_join (nfl_logos_df, by = c("posteam" = "team_code")) %>%
+  mutate(all_epa=(o_epa+d_epa)) %>%
+  filter(team.x=="WAS")
+
+# rank <- epa_all %>% 
+#   group_by(season) %>%
+#   mutate(all_epa_percent_rank = percent_rank(all_epa)) %>%
+  
+epa_all %>%
+  ggplot(aes(x = o_epa, y = d_epa)) +
+  geom_image(aes(image = url), size = 0.05) +
+  labs(x = "Offense EPA",
+       y = "Defense EPA",
+       caption = "Data from nflscrapR, Plot by @the_fun_bunch",
+       title = "Offensive & Defensive Team EPA",
+       subtitle = "WAS") +
+  theme_bw() +
+  theme(axis.title = element_text(size = 12),
+        axis.text = element_text(size = 10),
+        plot.title = element_text(size = 16),
+        plot.subtitle = element_text(size = 14),
+        plot.caption = element_text(size = 8)) +
+  xlim(-0.2, 0.15) +
+  ylim(-0.2, 0.15) +
+  geom_abline(slope=-1, intercept=0, alpha=0.2)
 
 
+  
+  
+  
+ 
 
-# cally <- pbp_rp %>%
-#   filter(game_date>= as.Date("2019-10-07") & down<=4 & qtr<=4 & half_seconds_remaining>120) %>%
-#   nflypr = sum(rush*yards_gained)/ sum(rush)
-#   nflypp = sum(pass*yards_gained)/ sum(pass)
-#   group_by(posteam) %>%
-#   # summarize(sumrush = sum(rush), sumpass = sum(pass)) %>%
-#   summarize(ypr = sum(rush*yards_gained)/ sum(rush), ypp = sum(pass*yards_gained)/ sum(pass), pvr = ypp-ypr) %>%
-#   arrange(pvr) 
-# cally
 
