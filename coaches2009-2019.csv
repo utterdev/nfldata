@@ -1,10 +1,10 @@
 Team,Season,HC,OC,DC
-ARI,2019,Kliff Kingsbury ,N/A,Vance Joseph
+ARI,2019,Kliff Kingsbury,N/A,Vance Joseph
 ARI,2018,Steve Wilks,Mike McCoy,Al Holcomb
-ARI,2017,Bruce Arians ,Harold Goodwin,James Bettcher
+ARI,2017,Bruce Arians,Harold Goodwin,James Bettcher
 ARI,2016,Bruce Arians,Harold Goodwin,James Bettcher
 ARI,2015,Bruce Arians,Harold Goodwin,James Bettcher
-ARI,2014,Bruce Arians ,Harold Goodwin,Todd Bowles
+ARI,2014,Bruce Arians,Harold Goodwin,Todd Bowles
 ARI,2013,Bruce Arians,Harold Goodwin,Todd Bowles
 ARI,2012,Ken Whisenhunt,Mike Miller,Ray Horton
 ARI,2011,Ken Whisenhunt,Mike Miller,Ray Horton
@@ -110,7 +110,7 @@ CLE,2017,Hue Jackson,N/A,Gregg Williams
 CLE,2016,Hue Jackson,N/A,Ray Horton
 CLE,2015,Mike Pettine,John DeFilippo,Jim O'Neil
 CLE,2014,Mike Pettine,Kyle Shanahan,Jim O'Neil
-CLE,2013,Rob Chudzinski ,Norv Turner,Ray Horton
+CLE,2013,Rob Chudzinski,Norv Turner,Ray Horton
 CLE,2012,Pat Shurmur,Brad Childress,Dick Jauron
 CLE,2011,Pat Shurmur,N/A,Dick Jauron
 CLE,2010,Eric Mangini,Brian Daboll,Rob Ryan
@@ -202,195 +202,195 @@ IND,2015,Chuck Pagano,N/A,Greg Manusky
 IND,2014,Chuck Pagano,Pep Hamilton,Greg Manusky
 IND,2013,Chuck Pagano,Pep Hamilton,Greg Manusky
 IND,2012,Chuck Pagano,Bruce Arians,Greg Manusky
-IND,2011,Jim Caldwell ,Clyde Christensen,Larry Coyer
-IND,2010,Jim Caldwell ,Clyde Christensen,Larry Coyer
-IND,2009,Jim Caldwell ,Tom Moore,Larry Coyer
-IND,2008,Tony Dungy ,Tom Moore,Ron Meeks
-IND,2007,Tony Dungy ,Tom Moore,Ron Meeks
-IND,2006,Tony Dungy ,Tom Moore,Ron Meeks
-IND,2005,Tony Dungy ,Tom Moore,Ron Meeks
-JAC,2019,Doug Marrone ,John DeFilippo,Todd Wash
+IND,2011,Jim Caldwell,Clyde Christensen,Larry Coyer
+IND,2010,Jim Caldwell,Clyde Christensen,Larry Coyer
+IND,2009,Jim Caldwell,Tom Moore,Larry Coyer
+IND,2008,Tony Dungy,Tom Moore,Ron Meeks
+IND,2007,Tony Dungy,Tom Moore,Ron Meeks
+IND,2006,Tony Dungy,Tom Moore,Ron Meeks
+IND,2005,Tony Dungy,Tom Moore,Ron Meeks
+JAC,2019,Doug Marrone,John DeFilippo,Todd Wash
 JAX,2018,Doug Marrone,Nathaniel Hackett,Todd Wash
 JAX,2017,Doug Marrone,Nathaniel Hackett,Todd Wash
 JAX,2016,N/A,N/A,Todd Wash
-JAX,2015,Gus Bradley ,Greg Olson,Bob Babich
-JAX,2014,Gus Bradley ,Jedd Fisch,Bob Babich
-JAX,2013,Gus Bradley ,Jedd Fisch,Bob Babich
-JAX,2012,Mike Mularkey ,Bob Bratkowski,Mel Tucker
+JAX,2015,Gus Bradley,Greg Olson,Bob Babich
+JAX,2014,Gus Bradley,Jedd Fisch,Bob Babich
+JAX,2013,Gus Bradley,Jedd Fisch,Bob Babich
+JAX,2012,Mike Mularkey,Bob Bratkowski,Mel Tucker
 JAX,2011,N/A,Dirk Koetter,Mel Tucker
-JAX,2010,Jack Del Rio ,Dirk Koetter,Mel Tucker
-JAX,2009,Jack Del Rio ,Dirk Koetter,Mel Tucker
-JAX,2008,Jack Del Rio ,Dirk Koetter,Gregg Williams
-JAX,2007,Jack Del Rio ,Dirk Koetter,Mike Smith
+JAX,2010,Jack Del Rio,Dirk Koetter,Mel Tucker
+JAX,2009,Jack Del Rio,Dirk Koetter,Mel Tucker
+JAX,2008,Jack Del Rio,Dirk Koetter,Gregg Williams
+JAX,2007,Jack Del Rio,Dirk Koetter,Mike Smith
 JAX,2006,Jack Del Rio,Carl Smith,Mike Smith
-JAX,2005,Jack Del Rio ,Carl Smith,Mike Smith
-KC,2019,Andy Reid ,Eric Bieniemy,Steve Spagnuolo
+JAX,2005,Jack Del Rio,Carl Smith,Mike Smith
+KC,2019,Andy Reid,Eric Bieniemy,Steve Spagnuolo
 KC,2018,Andy Reid,Eric Bieniemy,Bob Sutton
 KC,2017,Andy Reid,Matt Nagy,Bob Sutton
 KC,2016,Andy Reid,Brad Childress,Bob Sutton
 KC,2015,Andy Reid,Doug Pederson,Bob Sutton
 KC,2014,Andy Reid,Doug Pederson,Bob Sutton
-KC,2013,Andy Reid ,Doug Pederson,Bob Sutton
-KC,2012,Romeo Crennel ,Brian Daboll,Romeo Crennel
+KC,2013,Andy Reid,Doug Pederson,Bob Sutton
+KC,2012,Romeo Crennel,Brian Daboll,Romeo Crennel
 KC,2011,N/A,Bill Muir,Romeo Crennel
-KC,2010,Todd Haley ,Charlie Weis,Romeo Crennel
-KC,2009,Todd Haley ,Todd Haley,Clancy Pendergast
+KC,2010,Todd Haley,Charlie Weis,Romeo Crennel
+KC,2009,Todd Haley,Todd Haley,Clancy Pendergast
 KC,2008,Herm Edwards,Chan Gailey,Gunther Cunningham
 KC,2007,Herm Edwards,Mike Solari,Gunther Cunningham
-KC,2006,Herm Edwards ,Mike Solari,Gunther Cunningham
-KC,2005,Dick Vermeil ,Al Saunders,Gunther Cunningham
+KC,2006,Herm Edwards,Mike Solari,Gunther Cunningham
+KC,2005,Dick Vermeil,Al Saunders,Gunther Cunningham
 LAC,2019,Anthony Lynn,Ken Whisenhunt,Gus Bradley
 LAC,2018,Anthony Lynn,Ken Whisenhunt,Gus Bradley
-LAC,2017,Anthony Lynn ,Ken Whisenhunt,Gus Bradley
+LAC,2017,Anthony Lynn,Ken Whisenhunt,Gus Bradley
 SD,2016,Mike McCoy,Ken Whisenhunt,John Pagano
 SD,2015,Mike McCoy,Frank Reich,John Pagano
-SD,2014,Mike McCoy ,Frank Reich,John Pagano
-SD,2013,Mike McCoy ,Ken Whisenhunt,John Pagano
-SD,2012,Norv Turner ,Hal Hunter,John Pagano
-SD,2011,Norv Turner ,Clarence Shelmon,Greg Manusky
+SD,2014,Mike McCoy,Frank Reich,John Pagano
+SD,2013,Mike McCoy,Ken Whisenhunt,John Pagano
+SD,2012,Norv Turner,Hal Hunter,John Pagano
+SD,2011,Norv Turner,Clarence Shelmon,Greg Manusky
 SD,2010,Norv Turner,Clarence Shelmon,Ron Rivera
 SD,2009,Norv Turner,Clarence Shelmon,Ron Rivera
-SD,2008,Norv Turner ,Clarence Shelmon,N/A
-SD,2007,Norv Turner ,Clarence Shelmon,Ted Cottrell
-SD,2006,Marty Schottenheimer ,Cam Cameron,Wade Phillips
-SD,2005,Marty Schottenheimer ,Cam Cameron,Wade Phillips
-LAR,2019,Sean McVay ,N/A,Wade Phillips
+SD,2008,Norv Turner,Clarence Shelmon,N/A
+SD,2007,Norv Turner,Clarence Shelmon,Ted Cottrell
+SD,2006,Marty Schottenheimer,Cam Cameron,Wade Phillips
+SD,2005,Marty Schottenheimer,Cam Cameron,Wade Phillips
+LAR,2019,Sean McVay,N/A,Wade Phillips
 LAR,2018,Sean McVay,N/A,Wade Phillips
 LAR,2017,Sean McVay,Matt LaFleur,Wade Phillips
 LAR,2016,N/A,Rob Boras,Gregg Williams
-STL,2015,Jeff Fisher ,N/A,Gregg Williams
-STL,2014,Jeff Fisher ,Brian Schottenheimer,Gregg Williams
-STL,2013,Jeff Fisher ,Brian Schottenheimer,Tim Walton
-STL,2012,Jeff Fisher ,Brian Schottenheimer,N/A
+STL,2015,Jeff Fisher,N/A,Gregg Williams
+STL,2014,Jeff Fisher,Brian Schottenheimer,Gregg Williams
+STL,2013,Jeff Fisher,Brian Schottenheimer,Tim Walton
+STL,2012,Jeff Fisher,Brian Schottenheimer,N/A
 STL,2011,Steve Spagnuolo,Josh McDaniels,Ken Flajole
-STL,2010,Steve Spagnuolo ,Pat Shurmur,Ken Flajole
+STL,2010,Steve Spagnuolo,Pat Shurmur,Ken Flajole
 STL,2009,Steve Spagnuolo,Pat Shurmur,Ken Flajole
 STL,2008,Scott Linehan,Al Saunders,N/A
-STL,2007,Scott Linehan ,Greg Olson,Jim Haslett
+STL,2007,Scott Linehan,Greg Olson,Jim Haslett
 STL,2006,Scott Linehan,Greg Olson,Jim Haslett
 STL,2005,N/A,Steve Fairchild,Larry Marmie
-MIA,2019,Brian Flores ,Chad O'Shea,Patrick Graham
-MIA,2018,Adam Gase ,Dowell Loggains,Matt Burke
+MIA,2019,Brian Flores,Chad O'Shea,Patrick Graham
+MIA,2018,Adam Gase,Dowell Loggains,Matt Burke
 MIA,2017,Adam Gase,Clyde Christensen,Matt Burke
 MIA,2016,Adam Gase,Clyde Christensen,Vance Joseph
 MIA,2015,N/A,N/A,N/A
-MIA,2014,Joe Philbin ,Bill Lazor,Kevin Coyle
+MIA,2014,Joe Philbin,Bill Lazor,Kevin Coyle
 MIA,2013,Joe Philbin,Mike Sherman,Kevin Coyle
-MIA,2012,Joe Philbin ,Mike Sherman,Kevin Coyle
+MIA,2012,Joe Philbin,Mike Sherman,Kevin Coyle
 MIA,2011,N/A,Brian Daboll,Mike Nolan
 MIA,2010,Tony Sparano,Dan Henning,Mike Nolan
-MIA,2009,Tony Sparano ,Dan Henning,Paul Pasqualoni
-MIA,2008,Tony Sparano ,Dan Henning,Paul Pasqualoni
-MIA,2007,Cam Cameron ,N/A,Dom Capers
+MIA,2009,Tony Sparano,Dan Henning,Paul Pasqualoni
+MIA,2008,Tony Sparano,Dan Henning,Paul Pasqualoni
+MIA,2007,Cam Cameron,N/A,Dom Capers
 MIA,2006,Nick Saban,Mike Mularkey,Dom Capers
-MIA,2005,Nick Saban ,Scott Linehan,Richard Smith
-MIN,2019,Mike Zimmer ,Kevin Stefanski,George Edwards
-MIN,2018,Mike Zimmer ,John DeFilippo,George Edwards
+MIA,2005,Nick Saban,Scott Linehan,Richard Smith
+MIN,2019,Mike Zimmer,Kevin Stefanski,George Edwards
+MIN,2018,Mike Zimmer,John DeFilippo,George Edwards
 MIN,2017,Mike Zimmer,Pat Shurmur,George Edwards
-MIN,2016,Mike Zimmer ,N/A,George Edwards
-MIN,2015,Mike Zimmer ,Norv Turner,George Edwards
-MIN,2014,Mike Zimmer ,Norv Turner,George Edwards
+MIN,2016,Mike Zimmer,N/A,George Edwards
+MIN,2015,Mike Zimmer,Norv Turner,George Edwards
+MIN,2014,Mike Zimmer,Norv Turner,George Edwards
 MIN,2013,Leslie Frazier,Bill Musgrave,Alan Williams
-MIN,2012,Leslie Frazier ,Bill Musgrave,Alan Williams
-MIN,2011,Leslie Frazier ,Bill Musgrave,Fred Pagac
+MIN,2012,Leslie Frazier,Bill Musgrave,Alan Williams
+MIN,2011,Leslie Frazier,Bill Musgrave,Fred Pagac
 MIN,2010,N/A,Darrell Bevell,N/A
-MIN,2009,Brad Childress ,Darrell Bevell,Leslie Frazier
-MIN,2008,Brad Childress ,Darrell Bevell,Leslie Frazier
-MIN,2007,Brad Childress ,Darrell Bevell,Leslie Frazier
-MIN,2006,Brad Childress ,Darrell Bevell,Mike Tomlin
-MIN,2005,Mike Tice ,Steve Loney,Ted Cottrell
-NE,2019,Bill Belichick ,Josh McDaniels,N/A
+MIN,2009,Brad Childress,Darrell Bevell,Leslie Frazier
+MIN,2008,Brad Childress,Darrell Bevell,Leslie Frazier
+MIN,2007,Brad Childress,Darrell Bevell,Leslie Frazier
+MIN,2006,Brad Childress,Darrell Bevell,Mike Tomlin
+MIN,2005,Mike Tice,Steve Loney,Ted Cottrell
+NE,2019,Bill Belichick,Josh McDaniels,N/A
 NE,2018,Bill Belichick,Josh McDaniels,N/A
 NE,2017,Bill Belichick,Josh McDaniels,Matt Patricia
 NE,2016,Bill Belichick,Josh McDaniels,Matt Patricia
-NE,2015,Bill Belichick ,Josh McDaniels,Matt Patricia
+NE,2015,Bill Belichick,Josh McDaniels,Matt Patricia
 NE,2014,Bill Belichick,Josh McDaniels,Matt Patricia
-NE,2013,Bill Belichick ,Josh McDaniels,Matt Patricia
+NE,2013,Bill Belichick,Josh McDaniels,Matt Patricia
 NE,2012,Bill Belichick,Josh McDaniels,Matt Patricia
-NE,2011,Bill Belichick ,Bill O'Brien,N/A
-NE,2010,Bill Belichick ,N/A,N/A
-NE,2009,Bill Belichick ,N/A,Dean Pees
+NE,2011,Bill Belichick,Bill O'Brien,N/A
+NE,2010,Bill Belichick,N/A,N/A
+NE,2009,Bill Belichick,N/A,Dean Pees
 NE,2008,Bill Belichick,Josh McDaniels,Dean Pees
-NE,2007,Bill Belichick ,Josh McDaniels,Dean Pees
+NE,2007,Bill Belichick,Josh McDaniels,Dean Pees
 NE,2006,Bill Belichick,Josh McDaniels,Dean Pees
-NE,2005,Bill Belichick ,N/A,Eric Mangini
+NE,2005,Bill Belichick,N/A,Eric Mangini
 NO,2019,Sean Payton,Pete Carmichael,Dennis Allen
-NOR,2018,Sean Payton ,Pete Carmichael,Dennis Allen
-NOR,2017,Sean Payton ,Pete Carmichael,Dennis Allen
+NOR,2018,Sean Payton,Pete Carmichael,Dennis Allen
+NOR,2017,Sean Payton,Pete Carmichael,Dennis Allen
 NOR,2016,Sean Payton,Pete Carmichael,Dennis Allen
-NOR,2015,Sean Payton ,Pete Carmichael,N/A
+NOR,2015,Sean Payton,Pete Carmichael,N/A
 NOR,2014,Sean Payton,Pete Carmichael,Rob Ryan
-NOR,2013,Sean Payton ,Pete Carmichael,Rob Ryan
-NOR,2012,Aaron Kromer ,Pete Carmichael,Steve Spagnuolo
+NOR,2013,Sean Payton,Pete Carmichael,Rob Ryan
+NOR,2012,Aaron Kromer,Pete Carmichael,Steve Spagnuolo
 NOR,2011,Sean Payton,Pete Carmichael,Gregg Williams
-NOR,2010,Sean Payton ,Pete Carmichael,Gregg Williams
-NOR,2009,Sean Payton ,Pete Carmichael,Gregg Williams
+NOR,2010,Sean Payton,Pete Carmichael,Gregg Williams
+NOR,2009,Sean Payton,Pete Carmichael,Gregg Williams
 NOR,2008,Sean Payton,Doug Marrone,Gary Gibbs
-NOR,2007,Sean Payton ,Doug Marrone,Gary Gibbs
-NOR,2006,Sean Payton ,Doug Marrone,Gary Gibbs
+NOR,2007,Sean Payton,Doug Marrone,Gary Gibbs
+NOR,2006,Sean Payton,Doug Marrone,Gary Gibbs
 NOR,2005,Jim Haslett,Mike Sheppard,Rick Venturi
-NYG,2019,Pat Shurmur ,Mike Shula,James Bettcher
+NYG,2019,Pat Shurmur,Mike Shula,James Bettcher
 NYG,2018,Pat Shurmur,Mike Shula,James Bettcher
 NYG,2017,N/A,Mike Sullivan,Steve Spagnuolo
 NYG,2016,Ben McAdoo,Mike Sullivan,Steve Spagnuolo
 NYG,2015,Tom Coughlin,Ben McAdoo,Steve Spagnuolo
-NYG,2014,Tom Coughlin ,Ben McAdoo,Perry Fewell
-NYG,2013,Tom Coughlin ,Kevin Gilbride,Perry Fewell
+NYG,2014,Tom Coughlin,Ben McAdoo,Perry Fewell
+NYG,2013,Tom Coughlin,Kevin Gilbride,Perry Fewell
 NYG,2012,Tom Coughlin,Kevin Gilbride, Perry Fewell
 NYG,2011,Tom Coughlin,Kevin Gilbride,Perry Fewell
 NYG,2010,Tom Coughlin,Kevin Gilbride,Perry Fewell
 NYG,2009,Tom Coughlin,Kevin Gilbride,Bill Sheridan
 NYG,2008,Tom Coughlin,Kevin Gilbride,Steve Spagnuolo
 NYG,2007,Tom Coughlin,Kevin Gilbride,Steve Spagnuolo
-NYG,2006,Tom Coughlin ,John Hufnagel,Tim Lewis
+NYG,2006,Tom Coughlin,John Hufnagel,Tim Lewis
 NYG,2005,Tom Coughlin,John Hufnagel,Tim Lewis
-NYJ,2019,Adam Gase ,Dowell Loggains,Gregg Williams
-NYJ,2018,Todd Bowles ,Jeremy Bates,Kacy Rodgers
-NYJ,2017,Todd Bowles ,John Morton,Kacy Rodgers
+NYJ,2019,Adam Gase,Dowell Loggains,Gregg Williams
+NYJ,2018,Todd Bowles,Jeremy Bates,Kacy Rodgers
+NYJ,2017,Todd Bowles,John Morton,Kacy Rodgers
 NYJ,2016,Todd Bowles,Chan Gailey,Kacy Rodgers
-NYJ,2015,Todd Bowles ,Chan Gailey,Kacy Rodgers
-NYJ,2014,Rex Ryan ,Marty Mornhinweg,Dennis Thurman
+NYJ,2015,Todd Bowles,Chan Gailey,Kacy Rodgers
+NYJ,2014,Rex Ryan,Marty Mornhinweg,Dennis Thurman
 NYJ,2013,Rex Ryan,Marty Mornhinweg,Dennis Thurman
 NYJ,2012,Rex Ryan,Tony Sparano,Mike Pettine
 NYJ,2011,Rex Ryan,Brian Schottenheimer,Mike Pettine
-NYJ,2010,Rex Ryan ,Brian Schottenheimer,Mike Pettine
+NYJ,2010,Rex Ryan,Brian Schottenheimer,Mike Pettine
 NYJ,2009,Rex Ryan,Brian Schottenheimer,Mike Pettine
-NYJ,2008,Eric Mangini ,Brian Schottenheimer,Bob Sutton
-NYJ,2007,Eric Mangini ,Brian Schottenheimer,Bob Sutton
+NYJ,2008,Eric Mangini,Brian Schottenheimer,Bob Sutton
+NYJ,2007,Eric Mangini,Brian Schottenheimer,Bob Sutton
 NYJ,2006,Eric Mangini,Brian Schottenheimer,Bob Sutton
 NYJ,2005,Herm Edwards,Mike Heimerdinger,Donnie Henderson
 OAK,2019,Jon Gruden,Greg Olson,Paul Guenther
-OAK,2018,Jon Gruden ,Greg Olson,Paul Guenther
-OAK,2017,Jack Del Rio ,Todd Downing,N/A
-OAK,2016,Jack Del Rio ,Bill Musgrave,Ken Norton
+OAK,2018,Jon Gruden,Greg Olson,Paul Guenther
+OAK,2017,Jack Del Rio,Todd Downing,N/A
+OAK,2016,Jack Del Rio,Bill Musgrave,Ken Norton
 OAK,2015,Jack Del Rio,Bill Musgrave,Ken Norton
 OAK,2014,N/A,Greg Olson,Jason Tarver
-OAK,2013,Dennis Allen ,Greg Olson,Jason Tarver
-OAK,2012,Dennis Allen ,Greg Knapp,Jason Tarver
+OAK,2013,Dennis Allen,Greg Olson,Jason Tarver
+OAK,2012,Dennis Allen,Greg Knapp,Jason Tarver
 OAK,2011,Hue Jackson,Al Saunders,Chuck Bresnahan
 OAK,2010,Tom Cable,Hue Jackson,John Marshall
 OAK,2009,Tom Cable,N/A,John Marshall
 OAK,2008,N/A,Greg Knapp,Rob Ryan
 OAK,2007,Lane Kiffin,Greg Knapp,Rob Ryan
-OAK,2006,Art Shell ,N/A,Rob Ryan
+OAK,2006,Art Shell,N/A,Rob Ryan
 OAK,2005,Norv Turner,Jimmy Raye,Rob Ryan
-PHI,2019,Doug Pederson ,Mike Groh,Jim Schwartz
+PHI,2019,Doug Pederson,Mike Groh,Jim Schwartz
 PHI,2018,Doug Pederson,Mike Groh,Jim Schwartz
-PHI,2017,Doug Pederson ,Frank Reich,Jim Schwartz
-PHI,2016,Doug Pederson ,Frank Reich,Jim Schwartz
+PHI,2017,Doug Pederson,Frank Reich,Jim Schwartz
+PHI,2016,Doug Pederson,Frank Reich,Jim Schwartz
 PHI,2015,N/A,Pat Shurmur,Bill Davis
 PHI,2014,Chip Kelly,Pat Shurmur,Bill Davis
-PHI,2013,Chip Kelly ,Pat Shurmur,Bill Davis
+PHI,2013,Chip Kelly,Pat Shurmur,Bill Davis
 PHI,2012,Andy Reid,Marty Mornhinweg,N/A
-PHI,2011,Andy Reid ,Marty Mornhinweg,Juan Castillo
-PHI,2010,Andy Reid ,Marty Mornhinweg,Sean McDermott
+PHI,2011,Andy Reid,Marty Mornhinweg,Juan Castillo
+PHI,2010,Andy Reid,Marty Mornhinweg,Sean McDermott
 PHI,2009,Andy Reid,Marty Mornhinweg,Sean McDermott
 PHI,2008,Andy Reid,Marty Mornhinweg,Jim Johnson
 PHI,2007,Andy Reid,Marty Mornhinweg,Jim Johnson
-PHI,2006,Andy Reid ,Marty Mornhinweg,Jim Johnson
-PHI,2005,Andy Reid ,Brad Childress,Jim Johnson
-PIT,2019,Mike Tomlin ,Randy Fichtner,Keith Butler
-PIT,2018,Mike Tomlin ,Randy Fichtner,Keith Butler
+PHI,2006,Andy Reid,Marty Mornhinweg,Jim Johnson
+PHI,2005,Andy Reid,Brad Childress,Jim Johnson
+PIT,2019,Mike Tomlin,Randy Fichtner,Keith Butler
+PIT,2018,Mike Tomlin,Randy Fichtner,Keith Butler
 PIT,2017,Mike Tomlin,Todd Haley,Keith Butler
 PIT,2016,Mike Tomlin,Todd Haley,Keith Butler
 PIT,2015,Mike Tomlin,Todd Haley,Keith Butler
@@ -398,84 +398,84 @@ PIT,2014,Mike Tomlin,Todd Haley,Dick LeBeau
 PIT,2013,Mike Tomlin,Todd Haley,Dick LeBeau
 PIT,2012,Mike Tomlin,Todd Haley,Dick LeBeau
 PIT,2011,Mike Tomlin,Bruce Arians,Dick LeBeau
-PIT,2010,Mike Tomlin ,Bruce Arians,Dick LeBeau
+PIT,2010,Mike Tomlin,Bruce Arians,Dick LeBeau
 PIT,2009,Mike Tomlin,Bruce Arians,Dick LeBeau
-PIT,2008,Mike Tomlin ,Bruce Arians,Dick LeBeau
+PIT,2008,Mike Tomlin,Bruce Arians,Dick LeBeau
 PIT,2007,Mike Tomlin,Bruce Arians,Dick LeBeau
 PIT,2006,Bill Cowher,Ken Whisenhunt,Dick LeBeau
-PIT,2005,Bill Cowher ,Ken Whisenhunt,Dick LeBeau
-SF,2019,Kyle Shanahan ,N/A,Robert Saleh
+PIT,2005,Bill Cowher,Ken Whisenhunt,Dick LeBeau
+SF,2019,Kyle Shanahan,N/A,Robert Saleh
 SF,2018,Kyle Shanahan,N/A,Robert Saleh
-SF,2017,Kyle Shanahan ,N/A,Robert Saleh
+SF,2017,Kyle Shanahan,N/A,Robert Saleh
 SF,2016,Chip Kelly,Curtis Modkins,Jim O'Neil
 SF,2015,Jim Tomsula,Geep Chryst,Eric Mangini
-SF,2014,Jim Harbaugh ,Greg Roman,Vic Fangio
-SF,2013,Jim Harbaugh ,Greg Roman,Vic Fangio
-SF,2012,Jim Harbaugh ,Greg Roman,Vic Fangio
+SF,2014,Jim Harbaugh,Greg Roman,Vic Fangio
+SF,2013,Jim Harbaugh,Greg Roman,Vic Fangio
+SF,2012,Jim Harbaugh,Greg Roman,Vic Fangio
 SF,2011,Jim Harbaugh,Greg Roman,Vic Fangio
 SF,2010,N/A,Jimmy Raye,Greg Manusky
-SF,2009,Mike Singletary ,Jimmy Raye,Greg Manusky
+SF,2009,Mike Singletary,Jimmy Raye,Greg Manusky
 SF,2008,N/A,Mike Martz,Greg Manusky
 SF,2007,Mike Nolan,Jim Hostler,Greg Manusky
 SF,2006,Mike Nolan,Norv Turner,Bill Davis
 SF,2005,Mike Nolan,Mike McCarthy,Bill Davis
-SEA,2019,Pete Carroll ,Brian Schottenheimer,Ken Norton
+SEA,2019,Pete Carroll,Brian Schottenheimer,Ken Norton
 SEA,2018,Pete Carroll,Brian Schottenheimer,Ken Norton
 SEA,2017,Pete Carroll,Darrell Bevell,Kris Richard
-SEA,2016,Pete Carroll ,Darrell Bevell,Kris Richard
-SEA,2015,Pete Carroll ,Darrell Bevell,Kris Richard
+SEA,2016,Pete Carroll,Darrell Bevell,Kris Richard
+SEA,2015,Pete Carroll,Darrell Bevell,Kris Richard
 SEA,2014,Pete Carroll,Darrell Bevell,Dan Quinn
-SEA,2013,Pete Carroll ,Darrell Bevell,Dan Quinn
-SEA,2012,Pete Carroll ,Darrell Bevell,Gus Bradley
+SEA,2013,Pete Carroll,Darrell Bevell,Dan Quinn
+SEA,2012,Pete Carroll,Darrell Bevell,Gus Bradley
 SEA,2011,Pete Carroll,Darrell Bevell,Gus Bradley
-SEA,2010,Pete Carroll ,Jeremy Bates,Gus Bradley
+SEA,2010,Pete Carroll,Jeremy Bates,Gus Bradley
 SEA,2009,Jim Mora,Greg Knapp,Gus Bradley
-SEA,2008,Mike Holmgren ,Gil Haskell,John Marshall
+SEA,2008,Mike Holmgren,Gil Haskell,John Marshall
 SEA,2007,Mike Holmgren,Gil Haskell,John Marshall
-SEA,2006,Mike Holmgren ,Gil Haskell,John Marshall
+SEA,2006,Mike Holmgren,Gil Haskell,John Marshall
 SEA,2005,Mike Holmgren,Gil Haskell,N/A
-TB,2019,Bruce Arians ,Byron Leftwich,Todd Bowles
+TB,2019,Bruce Arians,Byron Leftwich,Todd Bowles
 TB,2018,Dirk Koetter,Todd Monken,N/A
 TB,2017,Dirk Koetter,Todd Monken,Mike Smith
 TB,2016,Dirk Koetter,Todd Monken,Mike Smith
-TB,2015,Lovie Smith ,Dirk Koetter,Leslie Frazier
+TB,2015,Lovie Smith,Dirk Koetter,Leslie Frazier
 TB,2014,Lovie Smith,Jeff Tedford,Leslie Frazier
-TB,2013,Greg Schiano ,Mike Sullivan,Bill Sheridan
+TB,2013,Greg Schiano,Mike Sullivan,Bill Sheridan
 TB,2012,Greg Schiano,Mike Sullivan,Bill Sheridan
-TB,2011,Raheem Morris ,Greg Olson,Keith Millard
+TB,2011,Raheem Morris,Greg Olson,Keith Millard
 TB,2010,Raheem Morris,Greg Olson,Raheem Morris
 TB,2009,Raheem Morris,Greg Olson,N/A
-TB,2008,Jon Gruden ,Bill Muir,Monte Kiffin
-TB,2007,Jon Gruden ,Bill Muir,Monte Kiffin
+TB,2008,Jon Gruden,Bill Muir,Monte Kiffin
+TB,2007,Jon Gruden,Bill Muir,Monte Kiffin
 TB,2006,Jon Gruden,Bill Muir,Monte Kiffin
-TB,2005,Jon Gruden ,Bill Muir,Monte Kiffin
-TEN,2019,Mike Vrabel ,Arthur Smith,Dean Pees
+TB,2005,Jon Gruden,Bill Muir,Monte Kiffin
+TEN,2019,Mike Vrabel,Arthur Smith,Dean Pees
 TEN,2018,Mike Vrabel,Matt LaFleur,Dean Pees
-TEN,2017,Mike Mularkey ,Terry Robiskie,Dick LeBeau
-TEN,2016,Mike Mularkey ,Terry Robiskie,Dick LeBeau
+TEN,2017,Mike Mularkey,Terry Robiskie,Dick LeBeau
+TEN,2016,Mike Mularkey,Terry Robiskie,Dick LeBeau
 TEN,2015,Ken Whisenhunt,Jason Michael,Ray Horton
-TEN,2014,Ken Whisenhunt ,Jason Michael,Ray Horton
-TEN,2013,Mike Munchak ,Dowell Loggains,Jerry Gray
-TEN,2012,Mike Munchak ,Chris Palmer,Jerry Gray
+TEN,2014,Ken Whisenhunt,Jason Michael,Ray Horton
+TEN,2013,Mike Munchak,Dowell Loggains,Jerry Gray
+TEN,2012,Mike Munchak,Chris Palmer,Jerry Gray
 TEN,2011,Mike Munchak,Chris Palmer,Jerry Gray
-TEN,2010,Jeff Fisher ,Mike Heimerdinger,Chuck Cecil
+TEN,2010,Jeff Fisher,Mike Heimerdinger,Chuck Cecil
 TEN,2009,Jeff Fisher,Mike Heimerdinger,Chuck Cecil
-TEN,2008,Jeff Fisher ,Mike Heimerdinger,Jim Schwartz
+TEN,2008,Jeff Fisher,Mike Heimerdinger,Jim Schwartz
 TEN,2007,Jeff Fisher,Norm Chow,Jim Schwartz
 TEN,2006,Jeff Fisher,Norm Chow,Jim Schwartz
-TEN,2005,Jeff Fisher ,Norm Chow,Jim Schwartz
+TEN,2005,Jeff Fisher,Norm Chow,Jim Schwartz
 WAS,2019,Jay Gruden,Kevin O'Connell,Greg Manusky
 WAS,2018,Jay Gruden,Matt Cavanaugh,Greg Manusky
-WAS,2017,Jay Gruden ,Matt Cavanaugh,Greg Manusky
+WAS,2017,Jay Gruden,Matt Cavanaugh,Greg Manusky
 WAS,2016,Jay Gruden,Sean McVay,Joe Barry
-WAS,2015,Jay Gruden ,Sean McVay,Joe Barry
+WAS,2015,Jay Gruden,Sean McVay,Joe Barry
 WAS,2014,Jay Gruden,Sean McVay,Jim Haslett
-WAS,2013,Mike Shanahan ,Kyle Shanahan,Jim Haslett
-WAS,2012,Mike Shanahan ,Kyle Shanahan,Jim Haslett
-WAS,2011,Mike Shanahan ,Kyle Shanahan,Jim Haslett
+WAS,2013,Mike Shanahan,Kyle Shanahan,Jim Haslett
+WAS,2012,Mike Shanahan,Kyle Shanahan,Jim Haslett
+WAS,2011,Mike Shanahan,Kyle Shanahan,Jim Haslett
 WAS,2010,Mike Shanahan,Kyle Shanahan,Jim Haslett
 WAS,2009,Jim Zorn,Sherman Smith,Greg Blache
 WAS,2008,Jim Zorn,Sherman Smith,Greg Blache
-WAS,2007,Joe Gibbs ,Al Saunders,Gregg Williams
+WAS,2007,Joe Gibbs,Al Saunders,Gregg Williams
 WAS,2006,Joe Gibbs,Al Saunders,Gregg Williams
-WAS,2005,Joe Gibbs ,Don Breaux,Gregg Williams
+WAS,2005,Joe Gibbs,Don Breaux,Gregg Williams
